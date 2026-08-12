@@ -1,0 +1,125 @@
+# Festival Shopping Marketplace
+
+## 1. Title
+
+Festival Shopping Marketplace
+
+## 2. Domain
+
+E-Commerce / Online Shopping
+
+## 3. Who is the User?
+
+### 1. Customer
+- Register and login to the application.
+- Browse festival products.
+- Search and filter products.
+- Add products to cart and place orders.
+
+### 2. Admin
+- Manage products and categories.
+- Add, update, and delete products.
+- View and manage customer orders.
+
+### 3. Seller
+- Add and manage their festival products.
+- Update product details and availability.
+- View orders related to their products.
+
+## 4. What Problem Are We Solving?
+
+During festival seasons, customers often have to visit multiple shops or websites to find clothing, gifts, decorations, and other festival products. This can be time-consuming and makes it difficult to compare different products in one place. Sellers also need a simple platform to display and manage their festival products.
+
+For example, during Diwali or Pongal, a customer may need to purchase clothes, decorations, gifts, and accessories from different shops. The Festival Shopping Marketplace provides these products in one platform so that customers can easily search, compare, add products to their cart, and place orders.
+
+## 5. Proposed Solution
+
+The application will provide the following features:
+
+- User registration and login.
+- User and admin role-based access.
+- Festival product listing.
+- Product categories.
+- Product search and filtering.
+- Product details page.
+- Add products to cart.
+- Update or remove cart items.
+- Place orders.
+- View order history.
+- Admin product management.
+- Admin category management.
+- Admin order management.
+- Seller product management.
+
+## 6. Core Entities / Database Tables
+
+The main database tables are:
+
+1. Users
+2. Roles
+3. Products
+4. Categories
+5. Cart
+6. Cart_Items
+7. Orders
+8. Order_Items
+9. Sellers
+
+## 7. User Roles & Permissions
+
+### Customer
+- Register and login.
+- View products.
+- Search and filter products.
+- Add products to cart.
+- Place orders.
+- View order history.
+
+### Admin
+- Login to admin panel.
+- Add, update, and delete products.
+- Manage categories.
+- Manage users.
+- View and manage orders.
+
+### Seller
+- Login to seller account.
+- Add products.
+- Update product information.
+- Manage product availability.
+- View orders for their products.
+
+## 8. Success Criteria
+
+- A user should be able to register and login successfully.
+- A user should be able to find a product using search or categories.
+- A user should be able to add products to the cart.
+- A user should be able to place an order easily.
+- Admin should be able to manage products and orders.
+- The application should provide a simple and user-friendly shopping experience.
+
+## 9. Out of Scope
+
+The following features will not be included in the initial version:
+
+- Real-time delivery tracking.
+- International shipping.
+- Advanced AI-based product recommendations.
+- Voice-based shopping.
+- Multiple payment gateway integrations.
+- Live customer support.
+- Mobile application.
+- Real-time seller-to-customer chat.
+
+## 10. Chosen Track
+
+Java (Spring Boot)
+
+### Technologies
+
+- Frontend: HTML, CSS, JavaScript
+- Backend: Java Spring Boot
+- Database: MySQL
+- API: REST API
+- IDE: Visual Studio Code
+- Version Control: Git and GitHub
