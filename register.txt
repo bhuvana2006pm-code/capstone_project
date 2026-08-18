@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BhuvanaMart - Register</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            background: linear-gradient(
+                135deg,
+                #ff9800,
+                #e91e63,
+                #7b1fa2
+            );
+        }
+
+        /* Festival Lights */
+
+        .lights {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+
+            padding: 12px;
+
+            display: flex;
+            justify-content: space-around;
+
+            font-size: 28px;
+        }
+
+        /* Main Card */
+
+        .register-card {
+            width: 850px;
+
+            display: flex;
+
+            background: white;
+
+            border-radius: 25px;
+
+            overflow: hidden;
+
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+
+        /* Left Side */
+
+        .festival-side {
+            width: 42%;
+
+            padding: 50px 30px;
+
+            color: white;
+
+            text-align: center;
+
+            background: linear-gradient(
+                160deg,
+                #ff6f00,
+                #e91e63,
+                #8e24aa
+            );
+        }
+
+        .festival-icon {
+            font-size: 55px;
+
+            margin-bottom: 20px;
+        }
+
+        .festival-side h1 {
+            font-size: 38px;
+
+            margin-bottom: 8px;
+        }
+
+        .festival-side h3 {
+            font-size: 18px;
+
+            font-weight: normal;
+
+            margin-bottom: 20px;
+        }
+
+        .festival-side p {
+            font-size: 16px;
+
+            line-height: 1.7;
+
+            margin-top: 15px;
+        }
+
+        .quote {
+            margin-top: 30px;
+
+            font-size: 18px;
+
+            font-weight: bold;
+        }
+
+        /* Form Side */
+
+        .form-side {
+            width: 58%;
+
+            padding: 40px 45px;
+        }
+
+        .form-side h2 {
+            text-align: center;
+
+            font-size: 29px;
+
+            color: #7b1fa2;
+
+            margin-bottom: 8px;
+        }
+
+        .subtitle {
+            text-align: center;
+
+            color: #777;
+
+            margin-bottom: 25px;
+        }
+
+        /* Input */
+
+        .input-group {
+            margin-bottom: 14px;
+        }
+
+        label {
+            display: block;
+
+            margin-bottom: 6px;
+
+            font-weight: bold;
+
+            color: #444;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+
+            padding: 11px;
+
+            border: 2px solid #eee;
+
+            border-radius: 8px;
+
+            font-size: 14px;
+        }
+
+        input:focus,
+        textarea:focus {
+            outline: none;
+
+            border-color: #e91e63;
+        }
+
+        textarea {
+            height: 55px;
+
+            resize: none;
+        }
+
+        /* Register Button */
+
+        .register-btn {
+            width: 100%;
+
+            padding: 13px;
+
+            border: none;
+
+            border-radius: 8px;
+
+            background: linear-gradient(
+                90deg,
+                #ff6f00,
+                #e91e63,
+                #8e24aa
+            );
+
+            color: white;
+
+            font-size: 17px;
+
+            font-weight: bold;
+
+            cursor: pointer;
+        }
+
+        .register-btn:hover {
+            opacity: 0.9;
+        }
+
+        /* Login Link */
+
+        .login-text {
+            text-align: center;
+
+            margin-top: 20px;
+
+            color: #555;
+        }
+
+        .login-text a {
+            color: #e91e63;
+
+            font-weight: bold;
+
+            text-decoration: none;
+        }
+
+        .login-text a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile */
+
+        @media (max-width: 768px) {
+
+            .register-card {
+                width: 90%;
+
+                flex-direction: column;
+            }
+
+            .festival-side,
+            .form-side {
+                width: 100%;
+            }
+
+            .festival-side {
+                padding: 30px 20px;
+            }
+
+            .festival-side h1 {
+                font-size: 30px;
+            }
+
+            .form-side {
+                padding: 30px 25px;
+            }
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- Festival Decoration -->
+
+    <div class="lights">
+
+        🪔
+        ✨
+        🪔
+        🎉
+        🪔
+        ✨
+        🪔
+
+    </div>
+
+
+    <!-- Register Card -->
+
+    <div class="register-card">
+
+
+        <!-- Festival Section -->
+
+        <div class="festival-side">
+
+            <div class="festival-icon">
+                🪔 ✨ 🎊
+            </div>
+
+            <h1>
+                BhuvanaMart
+            </h1>
+
+            <h3>
+                Festival Shopping Marketplace
+            </h3>
+
+            <p>
+                Create your account and
+                discover wonderful products
+                for every celebration.
+            </p>
+
+            <div class="quote">
+                Celebrate • Shop • Enjoy
+            </div>
+
+        </div>
+
+
+        <!-- Registration Form -->
+
+        <div class="form-side">
+
+            <h2>
+                Create Your Account
+            </h2>
+
+            <p class="subtitle">
+                Join BhuvanaMart today!
+            </p>
+
+
+            <form action="login.html">
+
+
+                <!-- Name -->
+
+                <div class="input-group">
+
+                    <label>
+                        Full Name
+                    </label>
+
+                    <input
+                        type="text"
+                        placeholder="Enter your full name"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Email -->
+
+                <div class="input-group">
+
+                    <label>
+                        Email
+                    </label>
+
+                    <input
+                        type="email"
+                        placeholder="Enter your email"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Phone -->
+
+                <div class="input-group">
+
+                    <label>
+                        Phone Number
+                    </label>
+
+                    <input
+                        type="tel"
+                        placeholder="Enter your phone number"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Password -->
+
+                <div class="input-group">
+
+                    <label>
+                        Password
+                    </label>
+
+                    <input
+                        type="password"
+                        placeholder="Create a password"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Confirm Password -->
+
+                <div class="input-group">
+
+                    <label>
+                        Confirm Password
+                    </label>
+
+                    <input
+                        type="password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+                </div>
+
+
+                <!-- Address -->
+
+                <div class="input-group">
+
+                    <label>
+                        Address
+                    </label>
+
+                    <textarea
+                        placeholder="Enter your address"
+                    ></textarea>
+
+                </div>
+
+
+                <!-- Register -->
+
+                <button
+                    type="submit"
+                    class="register-btn">
+
+                    Create Account
+
+                </button>
+
+            </form>
+
+
+            <!-- Login -->
+
+            <div class="login-text">
+
+                Already have an account?
+
+                <a href="login.html">
+                    Login
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
